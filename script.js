@@ -87,6 +87,24 @@ const questions = [
     ]
   },
   {
+    question: 'Where are the HCE 4 services available?',
+    answers: [
+      { text: 'Europe', correct: false },
+      { text: 'North America', correct: false },
+      { text: 'Asia', correct: false },
+      { text: 'Everywhere', correct: true }
+    ]
+  },
+  {
+    question: 'What do you think are the new Technologies?',
+    answers: [
+      { text: 'Biotechnology', correct: false },
+      { text: 'Humanoid Robots', correct: false },
+      { text: 'Atrificial Intelligence', correct: false },
+      { text: 'All of the above', correct: true }
+    ]
+  },
+   {
     question: 'Are you ready for the 4th industrial revolution?',
     answers: [
       { text: 'Yes', correct: false },
@@ -95,4 +113,5 @@ const questions = [
       { text: 'I am ready', correct: false }
     ]
   }
+  
 ]
