@@ -18,7 +18,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: url('https://images.pexels.com/photos/355952/pexels-photo-355952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-image: url("https://i.postimg.cc/rFNrK8RZ/5.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: cover;
@@ -39,7 +39,7 @@ body.wrong {
   background-color: white;
   border-radius: 5px;
   padding: 10px;
-  box-shadow: 0 0 10px 2px;
+  /*box-shadow: 0 0 10px 2px; */
 }
 
 .btn-grid {
