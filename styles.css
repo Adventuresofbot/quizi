@@ -37,9 +37,11 @@ body.wrong {
   width: 800px;
   max-width: 80%;
   background-color: white;
+  opacity: 0.75;
   border-radius: 5px;
   padding: 10px;
   /*box-shadow: 0 0 10px 2px; */
+  
 }
 
 .btn-grid {
