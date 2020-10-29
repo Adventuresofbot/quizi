@@ -78,35 +78,21 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'What do you think you should put at the heart of your business in the 4th Industrial Revolution?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'Profits', correct: false },
+      { text: 'New Technologies', correct: false },
+      { text: 'Human Connection', correct: true},
+      { text: 'Natural Resources', correct: false}
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
-    answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
-    ]
-  },
-  {
-    question: 'Is web development fun?',
+    question: 'Are you ready for the 4th industrial revolution?',
     answers: [
       { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
-    ]
-  },
-  {
-    question: 'What is 4 * 2?',
-    answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'Absolutely Yes', correct: true },
+      { text: 'No', correct: false },
+      { text: 'I dont know', correct: false }
     ]
   }
 ]
