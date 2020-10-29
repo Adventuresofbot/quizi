@@ -4,7 +4,7 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
-let shuffledQuestions, currentQuestionIndex
+//let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -14,7 +14,7 @@ nextButton.addEventListener('click', () => {
 
 function startGame() {
   startButton.classList.add('hide')
-  shuffledQuestions = questions.sort(() => Math.random() - .5)
+  shuffledQuestions = questions.sort(() => Math.random() - 0)
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
@@ -107,10 +107,10 @@ const questions = [
    {
     question: 'Are you ready for the 4th industrial revolution?',
     answers: [
-      { text: 'Yes', correct: false },
+      { text: 'Yes', correct: true },
       { text: 'Absolutely Yes', correct: true },
-      { text: '100% Yes', correct: false },
-      { text: 'I am ready', correct: false }
+      { text: '100% Yes', correct: true },
+      { text: 'I am ready', correct: true }
     ]
   }
   
