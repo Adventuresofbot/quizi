@@ -89,10 +89,10 @@ const questions = [
   {
     question: 'Are you ready for the 4th industrial revolution?',
     answers: [
-      { text: 'Kinda', correct: false },
+      { text: 'Yes', correct: false },
       { text: 'Absolutely Yes', correct: true },
-      { text: 'No', correct: false },
-      { text: 'I dont know', correct: false }
+      { text: '100% Yes', correct: false },
+      { text: 'I am ready', correct: false }
     ]
   }
 ]
