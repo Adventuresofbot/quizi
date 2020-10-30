@@ -41,6 +41,7 @@ body.wrong {
   opacity: 0.75;
   border-radius: 0px;
   padding: 10px;
+  text-align: center;
   color: white;
   /*box-shadow: 0 0 10px 2px; */
   
