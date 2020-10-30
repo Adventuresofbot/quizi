@@ -96,11 +96,11 @@ const questions = [
     ]
   },
   {
-    question: 'What do you think are the new Technologies?',
+    question: 'What do you think are the New Technologies 4.0?',
     answers: [
       { text: 'Biotechnology', correct: false },
       { text: 'Humanoid Robots', correct: false },
-      { text: 'Atrificial Intelligence', correct: false },
+      { text: 'Artificial Intelligence', correct: false },
       { text: 'All of the above', correct: true }
     ]
   },
