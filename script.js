@@ -61,7 +61,7 @@ function selectAnswer(e) {
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {
-    endButton.innerText = 'Subscribe to our Newsletter'
+    endButton.innerText = 'Thank you for taking our Quiz\nCLick here to subscribe to our Newsletter'
     endButton.classList.remove('hide')
   }
 }
