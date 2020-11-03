@@ -4,9 +4,12 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
-//let shuffledQuestions, currentQuestionIndex
+let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
+endButton.addEventListener('click', () => {
+  window.open('https://www.hce4.com/subscribers', '_blank')
+})
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   setNextQuestion()
@@ -57,8 +60,8 @@ function selectAnswer(e) {
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {
-    startButton.innerText = 'Thank you for your time\n Click the button to retake the quiz'
-    startButton.classList.remove('hide')
+    endButton.innerText = 'Subscribe to our Newsletter'
+    endButton.classList.remove('hide')
   }
 }
 
