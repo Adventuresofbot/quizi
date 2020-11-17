@@ -1,7 +1,10 @@
 const startButton = document.getElementById('start-btn')
-const nextButton = document.getElementById('next-btn')
+const explain1 = document.getElementById('answer1')
 const endButton = document.getElementById('end-btn')
+const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
+const endContainerElement = document.getElementById('end-container')
+const answerContainerElement = document.getElementById('answer-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
@@ -15,6 +18,7 @@ nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   setNextQuestion()
 })
+
 
 function startGame() {
   startButton.classList.add('hide')
@@ -46,6 +50,7 @@ function showQuestion(question) {
 function resetState() {
   clearStatusClass(document.body)
   nextButton.classList.add('hide')
+  explain1.classList.add('hide')
   while (answerButtonsElement.firstChild) {
     answerButtonsElement.removeChild(answerButtonsElement.firstChild)
   }
@@ -58,11 +63,18 @@ function selectAnswer(e) {
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
   })
+
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
+    explain1.innerText = shuffledQuestions[currentQuestionIndex].explanation
+    explain1.classList.remove('hide')
+    
   } else {
-    endButton.innerText = 'Thank you for taking our Quiz\nClick here to subscribe to our Newsletter'
+    endButton.innerText = 'Thank you for taking our quiz\nSubscribe to our Newsletter'
     endButton.classList.remove('hide')
+    explain1.innerText = shuffledQuestions[currentQuestionIndex].explanation
+    explain1.classList.remove('hide')
+    
   }
 }
 
@@ -88,7 +100,8 @@ const questions = [
       { text: 'New Technologies', correct: false },
       { text: 'Human Connection', correct: true},
       { text: 'Natural Resources', correct: false}
-    ]
+    ],
+    explanation : "This is the reason why HCE4 is what it is"
   },
   {
     question: 'Where are the HCE 4 services available?',
@@ -97,16 +110,18 @@ const questions = [
       { text: 'North America', correct: false },
       { text: 'Asia', correct: false },
       { text: 'Everywhere', correct: true }
-    ]
+    ],
+    explanation : "This is the reason why everywhere is what it is"
   },
   {
-    question: 'What do you think are the New Technologies 4.0?',
+    question: 'What do you think are the new Technologies?',
     answers: [
       { text: 'Biotechnology', correct: false },
       { text: 'Humanoid Robots', correct: false },
-      { text: 'Artificial Intelligence', correct: false },
+      { text: 'Atrificial Intelligence', correct: false },
       { text: 'All of the above', correct: true }
-    ]
+    ],
+    explanation : "This is the reason why it is what it is"
   },
    {
     question: 'Are you ready for the 4th industrial revolution?',
@@ -115,7 +130,8 @@ const questions = [
       { text: 'Absolutely Yes', correct: true },
       { text: '100% Yes', correct: true },
       { text: 'I am ready', correct: true }
-    ]
+    ],
+    explanation : "why wouldnt you be"
   }
   
 ]
