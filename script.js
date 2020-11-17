@@ -101,7 +101,7 @@ const questions = [
       { text: 'Human Connection', correct: true},
       { text: 'Natural Resources', correct: false}
     ],
-    explanation : "Human Connection is essential. At the heart of your company the human connection represents the fourth level of Maslow’s Hierarchy of needs, Esteem. It goes hand in hand with the New Technologies 4.0."
+    explanation : "Human Connection is essential. At the heart of your company the human connection represents the fourth level of Maslow’s Hierarchy of needs, Esteem. It goes hand in hand with the New Technologies 4.0"
   },
   {
     question: 'Where are the HCE 4 services available?',
@@ -121,7 +121,7 @@ const questions = [
       { text: 'Atrificial Intelligence', correct: false },
       { text: 'All of the above', correct: true }
     ],
-    explanation : "The Fourth Industrial Revolution, itself a product of Industry 4.0, is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc."  "
+    explanation : "The Fourth Industrial Revolution, itself a product of Industry 4.0, is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc"
   },
    {
     question: 'Are you ready for the 4th industrial revolution?',
