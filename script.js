@@ -101,7 +101,7 @@ const questions = [
       { text: 'Human Connection', correct: true},
       { text: 'Natural Resources', correct: false}
     ],
-    explanation : "Human Connection is essential as the heart of the Fourth Industrial Revolution lies at the scale of human evolutions that lead us to adopt another relation to ourselves and others"
+    explanation : "Human Connection is essential. At the heart of your company the human connection represents the fourth level of Maslow’s Hierarchy of needs, Esteem. It goes hand in hand with the New Technologies 4.0."
   },
   {
     question: 'Where are the HCE 4 services available?',
@@ -111,7 +111,7 @@ const questions = [
       { text: 'Asia', correct: false },
       { text: 'Everywhere', correct: true }
     ],
-    explanation : "Since we are an international business we provide services that reach all over the world"
+    explanation : "The 4th Industrial Revolution does not know boarders and neither do we. As an international business, we provide services that reach all over the world"
   },
   {
     question: 'What do you think are the new Technologies?',
@@ -121,7 +121,7 @@ const questions = [
       { text: 'Atrificial Intelligence', correct: false },
       { text: 'All of the above', correct: true }
     ],
-    explanation : "The Fourth Industrial Revolution, itself a product of Industry 4.0, is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc."
+    explanation : "The Fourth Industrial Revolution, itself a product of Industry 4.0, is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc."  "
   },
    {
     question: 'Are you ready for the 4th industrial revolution?',
@@ -131,7 +131,7 @@ const questions = [
       { text: '100% Yes', correct: true },
       { text: 'I am ready', correct: true }
     ],
-    explanation : "It's ok if you weren't because we will help you get ready"
+    explanation : "Even if you do not feel ready yet, we are ready to guide you into the 4th Industrial Revolution"
   }
   
 ]
