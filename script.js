@@ -101,7 +101,7 @@ const questions = [
       { text: 'Human Connection', correct: true},
       { text: 'Natural Resources', correct: false}
     ],
-    explanation : "This is the reason why HCE4 is what it is"
+    explanation : "Human Connection is essential as the heart of the Fourth Industrial Revolution lies at the scale of human evolutions that lead us to adopt another relation to ourselves and others"
   },
   {
     question: 'Where are the HCE 4 services available?',
@@ -111,7 +111,7 @@ const questions = [
       { text: 'Asia', correct: false },
       { text: 'Everywhere', correct: true }
     ],
-    explanation : "This is the reason why everywhere is what it is"
+    explanation : "Since we are an international business we provide services that reach all over the world"
   },
   {
     question: 'What do you think are the new Technologies?',
@@ -121,7 +121,7 @@ const questions = [
       { text: 'Atrificial Intelligence', correct: false },
       { text: 'All of the above', correct: true }
     ],
-    explanation : "This is the reason why it is what it is"
+    explanation : "The Fourth Industrial Revolution, itself a product of Industry 4.0, is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc."
   },
    {
     question: 'Are you ready for the 4th industrial revolution?',
@@ -131,7 +131,7 @@ const questions = [
       { text: '100% Yes', correct: true },
       { text: 'I am ready', correct: true }
     ],
-    explanation : "why wouldnt you be"
+    explanation : "It's ok if you weren't because we will help you get ready"
   }
   
 ]
