@@ -1,6 +1,7 @@
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: futura;
+  font-weight: bold;
+  font-family: Calibri;
   font-size: 18px;
 }
 
@@ -39,13 +40,19 @@ body.wrong {
   width: 800px;
   max-width: 80%;
   background-color: black;
-  opacity: 0.75;
+  opacity: 60%;
   border-radius: 0px;
-  padding: 10px;
+  margin-top: 40px;
+  padding: 20px;
   text-align: center;
   color: white;
   /*box-shadow: 0 0 10px 2px; */
   
+}
+
+.header{
+  text-align: center;
+  padding: 20px;
 }
 
 .btn-grid {
@@ -59,6 +66,15 @@ body.wrong {
   --hue: var(--hue-neutral);
   border: 1px solid hsl(var(--hue), 100%, 30%);
   background-color: hsl(var(--hue), 100%, 50%);
+  border-radius: 0px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+}
+
+.explain-btn {
+  
+  background-color: black;
   border-radius: 0px;
   padding: 5px 10px;
   color: white;
@@ -109,46 +125,6 @@ h1 {
 }
 
 
-/* Background Styles Only */
-
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: right;
-  text-decoration: none;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-/* Linkedin */
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
 
 html {
     width: 100%;
@@ -157,49 +133,5 @@ html {
     justify-content: center;
     align-items: center;
     background-color: #DFDFDF;
-}
-
-.side-links {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
-.side-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  margin-bottom: 10px;
-  color: white;
-  width: 180px;
-  padding: 10px 0;
-  border-radius: 10px;
-}
-
-.side-link-youtube {
-  background-color: red;
-}
-
-.side-link-twitter {
-  background-color: #1DA1F2;
-}
-
-.side-link-facebook {
-  background-color: #6e5494;
-}
-
-.side-link-homepage {
-  background-color: #3b87c3 ;
-}
-
-.side-link-text {
-  margin-left: 10px;
-  font-size: 18px;
-}
-
-.side-link-icon {
-  color: white;
-  font-size: 30px;
 }
 
