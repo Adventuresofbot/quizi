@@ -39,8 +39,7 @@ body.wrong {
 .container {
   width: 800px;
   max-width: 80%;
-  background-color: black;
-  opacity: 60%;
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 0px;
   margin-top: 40px;
   padding: 20px;
@@ -74,7 +73,6 @@ body.wrong {
 
 .explain-btn {
   
-  background-color: black;
   border-radius: 0px;
   padding: 5px 10px;
   color: white;
