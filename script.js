@@ -9,7 +9,7 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 const backgroundBodyElement =document.getElementById('bgbody')
 
-let shuffledQuestions, currentQuestionIndex,url
+let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
 endButton.addEventListener('click', () => {
