@@ -7,8 +7,9 @@ const endContainerElement = document.getElementById('end-container')
 const answerContainerElement = document.getElementById('answer-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
+const backgroundBodyElement =document.getElementById('bgbody')
 
-let shuffledQuestions, currentQuestionIndex
+let shuffledQuestions, currentQuestionIndex,url
 
 startButton.addEventListener('click', startGame)
 endButton.addEventListener('click', () => {
@@ -17,7 +18,9 @@ endButton.addEventListener('click', () => {
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   setNextQuestion()
-})
+  /*console.log(shuffledQuestions[currentQuestionIndex].urls)*/
+  backgroundBodyElement.style.backgroundImage = "url('" + shuffledQuestions[currentQuestionIndex].urls + "')"
+  })
 
 
 function startGame() {
@@ -31,6 +34,8 @@ function startGame() {
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
+     
+
 }
 
 function showQuestion(question) {
@@ -92,6 +97,13 @@ function clearStatusClass(element) {
   element.classList.remove('wrong')
 }
 
+/*const urls = [
+  "https://images.pexels.com/photos/5740845/pexels-photo-5740845.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+  "https://images.pexels.com/photos/5704788/pexels-photo-5704788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+  "https://images.pexels.com/photos/2698539/pexels-photo-2698539.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+  "https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+] */
+
 const questions = [
   {
     question: 'What do you think you should put at the heart of your business in the 4th Industrial Revolution?',
@@ -101,7 +113,8 @@ const questions = [
       { text: 'Human Connection', correct: true},
       { text: 'Natural Resources', correct: false}
     ],
-    explanation : "Human Connection is essential. At the heart of your company the human connection represents the fourth level of Maslow’s Hierarchy of needs, Esteem. It goes hand in hand with the New Technologies 4.0"
+    explanation : "Human Connection is essential. At the heart of your company the human connection represents the fourth level of Maslow’s Hierarchy of needs, Esteem. It goes hand in hand with the New Technologies 4.0",
+    urls : "https://images.pexels.com/photos/5740845/pexels-photo-5740845.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   },
   {
     question: 'Where are the HCE 4 services available?',
@@ -111,7 +124,8 @@ const questions = [
       { text: 'Asia', correct: false },
       { text: 'Everywhere', correct: true }
     ],
-    explanation : "The 4th Industrial Revolution does not know boarders and neither do we. As an international business, we provide services that reach all over the world"
+    explanation : "The 4th Industrial Revolution does not know boarders and neither do we. As an international business, we provide services that reach all over the world",
+    urls : "https://images.pexels.com/photos/5704788/pexels-photo-5704788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   },
   {
     question: 'What do you think are the new Technologies?',
@@ -121,7 +135,8 @@ const questions = [
       { text: 'Atrificial Intelligence', correct: false },
       { text: 'All of the above', correct: true }
     ],
-    explanation : "The Fourth Industrial Revolution, itself a product of Industry 4.0, is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc"
+    explanation : "The Fourth Industrial Revolution is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc",
+    urls : "https://images.pexels.com/photos/2698539/pexels-photo-2698539.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   },
    {
     question: 'Are you ready for the 4th industrial revolution?',
@@ -131,7 +146,8 @@ const questions = [
       { text: '100% Yes', correct: true },
       { text: 'I am ready', correct: true }
     ],
-    explanation : "Even if you do not feel ready yet, we are ready to guide you into the 4th Industrial Revolution"
+    explanation : "Even if you do not feel ready yet, we are ready to guide you into the 4th Industrial Revolution",
+    urls : "https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   }
   
 ]
