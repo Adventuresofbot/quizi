@@ -115,7 +115,7 @@ const questions = [
       { text: 'Natural Resources', correct: false}
     ],
     explanation : "Human Connection is essential. At the heart of your company the human connection represents the fourth level of Maslow’s Hierarchy of needs, Esteem. It goes hand in hand with the New Technologies 4.0",
-    urls : "https://images.unsplash.com/photo-1527525443983-6e60c75fff46?ixlib=rb-1.2.1&auto=format&fit=crop&w=932&q=80"
+    urls : "https://images.unsplash.com/photo-1556484687-30636164638b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"
   },
   {
     question: 'Where are the HCE 4 services available?',
@@ -126,7 +126,7 @@ const questions = [
       { text: 'Everywhere', correct: true }
     ],
     explanation : "The 4th Industrial Revolution does not know borders and neither do we. As an international business, we provide services that reach all over the world",
-    urls : "https://images.pexels.com/photos/3754686/pexels-photo-3754686.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    urls : "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1633&q=80"
   },
   {
     question: 'What do you think are the new Technologies?',
