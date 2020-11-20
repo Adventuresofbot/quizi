@@ -29,6 +29,7 @@ function startGame() {
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
+  backgroundBodyElement.style.backgroundImage = "url('" + shuffledQuestions[0].urls + "')"
 }
 
 function setNextQuestion() {
