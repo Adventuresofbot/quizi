@@ -115,7 +115,7 @@ const questions = [
       { text: 'Natural Resources', correct: false}
     ],
     explanation : "Human Connection is essential. At the heart of your company the human connection represents the fourth level of Maslow’s Hierarchy of needs, Esteem. It goes hand in hand with the New Technologies 4.0",
-    urls : "https://images.pexels.com/photos/5740845/pexels-photo-5740845.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    urls : "https://images.unsplash.com/photo-1527525443983-6e60c75fff46?ixlib=rb-1.2.1&auto=format&fit=crop&w=932&q=80"
   },
   {
     question: 'Where are the HCE 4 services available?',
@@ -125,8 +125,8 @@ const questions = [
       { text: 'Asia', correct: false },
       { text: 'Everywhere', correct: true }
     ],
-    explanation : "The 4th Industrial Revolution does not know boarders and neither do we. As an international business, we provide services that reach all over the world",
-    urls : "https://images.pexels.com/photos/5704788/pexels-photo-5704788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    explanation : "The 4th Industrial Revolution does not know borders and neither do we. As an international business, we provide services that reach all over the world",
+    urls : "https://images.pexels.com/photos/3754686/pexels-photo-3754686.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
   },
   {
     question: 'What do you think are the new Technologies?',
@@ -137,7 +137,9 @@ const questions = [
       { text: 'All of the above', correct: true }
     ],
     explanation : "The Fourth Industrial Revolution is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc",
-    urls : "https://images.pexels.com/photos/2698539/pexels-photo-2698539.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    urls : "https://images.unsplash.com/photo-1535378620166-273708d44e4c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1166&q=80"
+
+    /* robot playing piano - https://images.unsplash.com/photo-1516110833967-0b5716ca1387?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80*/
   },
    {
     question: 'Are you ready for the 4th industrial revolution?',
@@ -148,7 +150,7 @@ const questions = [
       { text: 'I am ready', correct: true }
     ],
     explanation : "Even if you do not feel ready yet, we are ready to guide you into the 4th Industrial Revolution",
-    urls : "https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    urls : "https://images.pexels.com/photos/327540/pexels-photo-327540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
   }
   
 ]
