@@ -106,7 +106,7 @@ body.wrong {
 
 .btn.wrong {
   --hue: var(--hue-wrong);
-  color: #FF333;
+  color: #FF3333;
 }
 
 .start-btn, .next-btn, .end-btn {
