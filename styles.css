@@ -5,6 +5,15 @@
   font-size: 18px;
 }
 
+@font-face {
+  font-family: futura;
+  src: url(/Users/hisham/Downloads/HCE4/UXD/Quiz-1);
+}
+
+div {
+  font-family:futura;
+}
+
 :root {
   --hue-neutral: 200;
   --hue-wrong: 0;
