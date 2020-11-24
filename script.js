@@ -112,17 +112,17 @@ const questionsF = [
       { text: 'Yes', correct: true },
       { text: 'Absolutely Yes', correct: true },
       { text: '100% Yes', correct: true },
-      { text: 'I am ready', correct: true }
+      { text: "I don't feel ready", correct: true }
     ],
     explanation : "Even if you do not feel ready yet, we are ready to guide you into the 4th Industrial Revolution",
     urls : "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
   },
   {
-    question: 'What do you think are the new Technologies?',
+    question: 'What do you think are the New Technologies 4.0?',
     answers: [
       { text: 'Biotechnology', correct: false },
       { text: 'Humanoid Robots', correct: false },
-      { text: 'Atrificial Intelligence', correct: false },
+      { text: 'Artificial Intelligence', correct: false },
       { text: 'All of the above', correct: true }
     ],
     explanation : "The Fourth Industrial Revolution is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc",
@@ -275,11 +275,11 @@ function clearStatusClass(element) {
         urls : "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1633&q=80"
       },
       {
-        question: 'What do you think are the new Technologies?',
+        question: 'What do you think are the New Technologies 4.0?',
         answers: [
           { text: 'Biotechnology', correct: false },
           { text: 'Humanoid Robots', correct: false },
-          { text: 'Atrificial Intelligence', correct: false },
+          { text: 'Artificial Intelligence', correct: false },
           { text: 'All of the above', correct: true }
         ],
         explanation : "The Fourth Industrial Revolution is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc",
@@ -293,7 +293,7 @@ function clearStatusClass(element) {
           { text: 'Yes', correct: true },
           { text: 'Absolutely Yes', correct: true },
           { text: '100% Yes', correct: true },
-          { text: 'I am ready', correct: true }
+          { text: "I don't feel ready", correct: true }
         ],
         explanation : "Even if you do not feel ready yet, we are ready to guide you into the 4th Industrial Revolution",
         urls : "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
