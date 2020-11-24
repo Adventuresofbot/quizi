@@ -150,7 +150,7 @@ const questions = [
       { text: 'I am ready', correct: true }
     ],
     explanation : "Even if you do not feel ready yet, we are ready to guide you into the 4th Industrial Revolution",
-    urls : "https://images.pexels.com/photos/4963445/pexels-photo-4963445.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    urls : "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
   }
   
 ]
