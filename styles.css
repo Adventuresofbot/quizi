@@ -1,19 +1,18 @@
 *, *::before, *::after {
   box-sizing: border-box;
   font-weight: bold;
-  font-family:  Calibri-Regular;
+  font-family: Calibri-Regular;
   font-size: 18px;
 }
 
 @font-face {
-  font-family: Calibri-Regular;
-  src: url(Calibri-Regular.ttf);
+  font-family: Calibri-Regular;;
+  src: url(Calibri-Regular.ttf)
 }
 
 div {
-  font-family:Calibri-Regular;
+  font-family: Calibri-Regular;
 }
-
 :root {
   --hue-neutral: 200;
   --hue-wrong: 0;
@@ -30,8 +29,10 @@ body {
   justify-content: center;
   align-items: center;
   /*background-image: url("https://images.unsplash.com/photo-1500027014421-46ccc843776a?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");*/
+ 
   /* wind turbines */
   /*background-image: url("https://i.postimg.cc/7PBTYXxS/agriculture-alternative-energy-clouds-countryside-414837.jpg");*/
+
   /* woman swinging */
   background-image: url("https://images.pexels.com/photos/1319795/pexels-photo-1319795.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"); 
   background-repeat: no-repeat;
@@ -95,18 +96,18 @@ body.wrong {
 }
 
 .btn:hover {
-  /*border-color: black;*/
+  border-color: white;
 }
 
 .btn.correct {
   --hue: var(--hue-correct);
-  color: #4CFF33;
+  color: white;
   /*color: black;*/
 }
 
 .btn.wrong {
   --hue: var(--hue-wrong);
-  color: #FF3333;
+  color: #1A1919;
 }
 
 .start-btn, .next-btn, .end-btn {
