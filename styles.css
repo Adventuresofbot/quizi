@@ -1,17 +1,17 @@
 *, *::before, *::after {
   box-sizing: border-box;
   font-weight: bold;
-  font-family:  futura;
+  font-family:  Calibri-Regular;
   font-size: 18px;
 }
 
 @font-face {
-  font-family: futura;
-  src: url(futura.ttf);
+  font-family: Calibri-Regular;
+  src: url(Calibri-Regular.ttf);
 }
 
 div {
-  font-family:futura;
+  font-family:Calibri-Regular;
 }
 
 :root {
