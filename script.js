@@ -114,7 +114,7 @@ const questionsF = [
       { text: '100% Yes', correct: true },
       { text: "I don't feel ready", correct: true }
     ],
-    explanation : "Even if you do not feel ready yet, we are ready to guide you into the 4th Industrial Revolution",
+    explanation : "Whatever your level of readiness is, and even if you are not fully prepared, we are equipped to accompany you into the 4th Industrial Revolution",
     urls : "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
   },
   {
@@ -139,7 +139,8 @@ const questionsF = [
       { text: 'Everywhere', correct: true }
     ],
     explanation : "The 4th Industrial Revolution does not know borders and neither do we. As an international business, we provide services that reach all over the world",
-    urls : "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1633&q=80"
+    urls : "https://images.pexels.com/photos/592753/pexels-photo-592753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    /*"https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1633&q=80"*/
   },
   {
     question: 'What do you think you should put at the heart of your business in the 4th Industrial Revolution?',
@@ -272,7 +273,8 @@ function clearStatusClass(element) {
           { text: 'Everywhere', correct: true }
         ],
         explanation : "The 4th Industrial Revolution does not know borders and neither do we. As an international business, we provide services that reach all over the world",
-        urls : "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1633&q=80"
+        urls : "https://images.pexels.com/photos/592753/pexels-photo-592753.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        /*"https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1633&q=80"*/
       },
       {
         question: 'What do you think are the New Technologies 4.0?',
@@ -295,10 +297,14 @@ function clearStatusClass(element) {
           { text: '100% Yes', correct: true },
           { text: "I don't feel ready", correct: true }
         ],
-        explanation : "Even if you do not feel ready yet, we are ready to guide you into the 4th Industrial Revolution",
+        explanation : "Whatever your level of readiness is, and even if you are not fully prepared, we are equipped to accompany you into the 4th Industrial Revolution",
         urls : "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
       }
       
     ]
+
+// -----------------------------------------------------------------
+
+//let firefoxAgent = userAgentString.indexOf("Firefox") > -1;
 
   }
