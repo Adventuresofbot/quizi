@@ -217,6 +217,18 @@ function resetState() {
 
 function selectAnswer(e) {
   const selectedButton = e.target
+  // mikes changes - added "selected-wrong-answer" class to selected element then removes it when you click on another answer
+
+    if (selectedButton.dataset.correct !== true) {
+      const allWrongAnswers = document.querySelectorAll(
+        ".selected-wrong-answer"
+      );
+      allWrongAnswers.forEach((item) => {
+        item.classList.remove("selected-wrong-answer");
+      });
+      this.classList.add("selected-wrong-answer");
+    }
+
   const correct = selectedButton.dataset.correct
   setStatusClass(document.body, correct)
   Array.from(answerButtonsElement.children).forEach(button => {
