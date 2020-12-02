@@ -230,3 +230,12 @@ html {
   color: white;
   font-size: 30px;
 }
+
+.selected-wrong-answer {
+  background: grey;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
