@@ -107,7 +107,7 @@ body.wrong {
 }
 
 .selected-wrong-answer {
-  background: #848484;
+  background: yellow;
 }
 
 .btn:hover {
@@ -238,13 +238,5 @@ html {
 .side-link-icon {
   color: white;
   font-size: 30px;
-}
-
-.selected-wrong-answer {
-  background: grey;
-}
-
-.btn:hover {
-  cursor: pointer;
 }
 
