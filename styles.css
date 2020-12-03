@@ -108,7 +108,7 @@ body.wrong {
 }
 
 .selected-wrong-answer {
-  /*background: #A4A4A4;*/
+  background: #A4A4A4;
   color: yellow;
 }
 
