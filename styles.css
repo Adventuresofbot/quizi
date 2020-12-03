@@ -103,7 +103,8 @@ body.wrong {
 
 .btn.wrong {
   --hue: var(--hue-wrong);
-  color: #1A1919;
+  /*color: #1A1919;*/
+  color: #BDBDBD;
 }
 
 .selected-wrong-answer {
