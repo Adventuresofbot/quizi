@@ -126,7 +126,7 @@ const questionsF = [
       { text: 'All of the above', correct: true }
     ],
     explanation : "The Fourth Industrial Revolution is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc",
-    urls : "https://images.unsplash.com/photo-1535378620166-273708d44e4c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1166&q=80"
+    urls : "https://cdn.vox-cdn.com/thumbor/NX9K3xqd_KkJkhAVtBLPEITr4wM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19968242/MOX01169.jpg"
 
     /* robot playing piano - https://images.unsplash.com/photo-1516110833967-0b5716ca1387?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80*/
   },
@@ -297,7 +297,7 @@ function clearStatusClass(element) {
           { text: 'All of the above', correct: true }
         ],
         explanation : "The Fourth Industrial Revolution is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc",
-        urls : "https://images.unsplash.com/photo-1535378620166-273708d44e4c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1166&q=80"
+        urls : "https://cdn.vox-cdn.com/thumbor/NX9K3xqd_KkJkhAVtBLPEITr4wM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19968242/MOX01169.jpg"
 
         /* robot playing piano - https://images.unsplash.com/photo-1516110833967-0b5716ca1387?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80*/
       },
