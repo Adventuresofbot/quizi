@@ -72,9 +72,11 @@ body.wrong {
 }
 
 .btn {
-  --hue: var(--hue-neutral);
+ --hue: var(--hue-neutral);
   border: 1px solid hsl(var(--hue), 0%, 20%);
-  background-color: hsl(var(--hue), 0%, 20%);
+  /*background-color: hsl(var(--hue), 0%, 20%);*/  
+  background-color: #320E0E;
+  /*background-color: #310F0F;*/
   border-radius: 0px;
   padding: 5px 10px;
   
@@ -91,6 +93,7 @@ body.wrong {
 
 .btn:hover {
   border-color: white;
+  cursor: pointer;
 }
 
 .btn.correct {
@@ -109,13 +112,7 @@ body.wrong {
 
 .selected-wrong-answer {
   background: #A4A4A4;
-  color: yellow;
 }
-
-.btn:hover {
-  cursor: pointer;
-}
-
 
 .start-btn, .next-btn, .end-btn {
   font-size: 1.5rem;
