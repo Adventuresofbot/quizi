@@ -126,9 +126,9 @@ const questionsF = [
       { text: 'All of the above', correct: true }
     ],
     explanation : "The Fourth Industrial Revolution is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc",
-    urls : "https://cdn.vox-cdn.com/thumbor/NX9K3xqd_KkJkhAVtBLPEITr4wM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19968242/MOX01169.jpg"
-
-    /* robot playing piano - https://images.unsplash.com/photo-1516110833967-0b5716ca1387?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80*/
+//     urls : "https://cdn.vox-cdn.com/thumbor/NX9K3xqd_KkJkhAVtBLPEITr4wM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19968242/MOX01169.jpg"
+    urls : "https://www.onderwijsvanmorgen.nl/wp-content/uploads/2018/12/Virtual-Reality-in-het-Onderwijs.jpg"
+    
   },
   {
     question: 'Where are the HCE 4 services available?',
@@ -139,8 +139,8 @@ const questionsF = [
       { text: 'Everywhere', correct: true }
     ],
     explanation : "The 4th Industrial Revolution does not know borders and neither do we. As an international business, we provide services that reach all over the world",
-    urls : "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1633&q=80"
-    /**/
+//     urls : "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1633&q=80"
+    urls : "https://images.unsplash.com/photo-1562504208-03d85cc8c23e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80"
   },
   {
     question: 'What do you think you should put at the heart of your business in the 4th Industrial Revolution?',
@@ -152,6 +152,7 @@ const questionsF = [
     ],
     explanation : "Human Connection is essential. At the heart of your company the human connection represents the fourth level of Maslow’s Hierarchy of needs, Esteem. It goes hand in hand with the New Technologies 4.0",
     urls : "https://images.unsplash.com/photo-1556484687-30636164638b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"
+    
   }
   
 ]
@@ -285,8 +286,8 @@ function clearStatusClass(element) {
           { text: 'Everywhere', correct: true }
         ],
         explanation : "The 4th Industrial Revolution does not know borders and neither do we. As an international business, we provide services that reach all over the world",
-        urls : "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1633&q=80"
-        /**/
+//         urls : "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1633&q=80"
+        urls : "https://images.unsplash.com/photo-1562504208-03d85cc8c23e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80"
       },
       {
         question: 'What do you think are the New Technologies 4.0?',
@@ -297,9 +298,9 @@ function clearStatusClass(element) {
           { text: 'All of the above', correct: true }
         ],
         explanation : "The Fourth Industrial Revolution is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc",
-        urls : "https://cdn.vox-cdn.com/thumbor/NX9K3xqd_KkJkhAVtBLPEITr4wM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19968242/MOX01169.jpg"
-
-        /* robot playing piano - https://images.unsplash.com/photo-1516110833967-0b5716ca1387?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80*/
+//         urls : "https://cdn.vox-cdn.com/thumbor/NX9K3xqd_KkJkhAVtBLPEITr4wM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19968242/MOX01169.jpg"
+        urls : "https://www.onderwijsvanmorgen.nl/wp-content/uploads/2018/12/Virtual-Reality-in-het-Onderwijs.jpg"
+        
       },
       {
         question: 'Are you ready for the 4th industrial revolution?',
