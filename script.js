@@ -8,6 +8,7 @@ const answerContainerElement = document.getElementById('answer-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 const backgroundBodyElement =document.getElementById('bgbody')
+const thankYouElement = document.getElementById('thankyou')
 
 let shuffledQuestions, currentQuestionIndex, reverseIndex
 
@@ -86,7 +87,7 @@ function selectAnswer(e) {
     endButton.classList.remove('hide')
     explain1.innerText = shuffledQuestions[currentQuestionIndex].explanation
     explain1.classList.remove('hide')
-    
+    thankYouElement.classList.remove('hide')
   }
 }
 
@@ -246,6 +247,7 @@ function selectAnswer(e) {
     endButton.classList.remove('hide')
     explain1.innerText = shuffledQuestions[currentQuestionIndex].explanation
     explain1.classList.remove('hide')
+    thankYouElement.classList.remove('hide')
     
   }
 }
