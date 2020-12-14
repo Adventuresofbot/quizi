@@ -76,7 +76,7 @@ body.wrong {
  --hue: var(--hue-neutral);
   border: 1px solid hsl(var(--hue), 0%, 20%);
   /*background-color: hsl(var(--hue), 0%, 20%);*/  
-  background-color: #320E0E;
+  background-color: #13436b;
   /*background-color: #310F0F;*/
   border-radius: 0px;
   padding: 5px 10px;
