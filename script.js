@@ -34,6 +34,7 @@ function startGame() {
   shuffledQuestions = questionsF.sort(() => Math.random() - 0)
   currentQuestionIndex = 0
   reverseIndex = 3
+  questionContainerElement.style.width = "800px"
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
   backgroundBodyElement.style.backgroundImage = "url('" + shuffledQuestions[0].urls + "')"
@@ -182,6 +183,7 @@ function startGame() {
   shuffledQuestions = questions.sort(() => Math.random() - 0)
   currentQuestionIndex = 0
   reverseIndex = 3
+  questionContainerElement.style.width = "800px"
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
   backgroundBodyElement.style.backgroundImage = "url('" + shuffledQuestions[0].urls + "')"
