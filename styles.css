@@ -59,6 +59,28 @@ body.wrong {
   /*box-shadow: 0 0 10px 2px; */
 }
 
+.start-container {
+  min-width: auto;
+  /* width: 800px; */
+  max-width: 80%;
+  
+  /*background-color: black;*/
+  background: rgba(0, 0, 0, 0.6);
+  /*opacity: 60%;*/
+  border-radius: 0px;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  /*box-shadow: 0 0 10px 2px; */
+  
+  /* To bring the container up on the page */
+  margin-bottom: 6em;
+
+  /* want to bring more space between question and container border */
+  padding-top: auto;
+}
+
 .header{
   text-align: center;
   padding: 20px;
