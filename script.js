@@ -87,7 +87,7 @@ function selectAnswer(e) {
     explain1.classList.remove('hide')
     
   } else {
-    endButton.innerText = 'Thank you for taking our quiz\nSubscribe to our Newsletter'
+    endButton.innerText = 'Subscribe to \n our Newsletter'
     endButton.classList.remove('hide')
     explain1.innerText = shuffledQuestions[currentQuestionIndex].explanation
     explain1.classList.remove('hide')
@@ -249,7 +249,7 @@ function selectAnswer(e) {
     explain1.classList.remove('hide')
     
   } else {
-    endButton.innerText = 'Thank you for taking our quiz\nSubscribe to our Newsletter'
+    endButton.innerText = 'Subscribe to \n our Newsletter'
     endButton.classList.remove('hide')
     explain1.innerText = shuffledQuestions[currentQuestionIndex].explanation
     explain1.classList.remove('hide')
