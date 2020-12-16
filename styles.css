@@ -81,6 +81,26 @@ body.wrong {
   padding-top: auto;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+
+.subtitle p {
+  /* position: absolute; */
+  /* top: 50px; */
+  font-size: 40px;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+
+}
+
 .header{
   text-align: center;
   padding: 20px;
