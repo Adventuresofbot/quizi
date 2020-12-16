@@ -9,6 +9,8 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 const backgroundBodyElement =document.getElementById('bgbody')
 const thankYouElement = document.getElementById('thankyou')
+const subtitleElement = document.getElementById('subtitle')
+const containerElement = document.getElementsByClassName('container')
 
 let shuffledQuestions, currentQuestionIndex, reverseIndex
 
@@ -34,6 +36,7 @@ function startGame() {
   shuffledQuestions = questionsF.sort(() => Math.random() - 0)
   currentQuestionIndex = 0
   reverseIndex = 3
+  subtitleElement.classList.add('hide')
   questionContainerElement.style.width = "800px"
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
@@ -183,6 +186,7 @@ function startGame() {
   shuffledQuestions = questions.sort(() => Math.random() - 0)
   currentQuestionIndex = 0
   reverseIndex = 3
+  subtitleElement.classList.add('hide')
   questionContainerElement.style.width = "800px"
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
