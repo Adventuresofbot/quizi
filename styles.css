@@ -28,7 +28,8 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: url('https://specials-images.forbesimg.com/imageserve/5ef3f7eec4f2390006f0c356/960x0.jpg?fit=scale');
+  background-image: url("https://i.postimg.cc/c1QCTs8m/Whats-App-Image-2020-12-22-at-9-14-34-AM.jpg");
+/*   background-image: url('https://specials-images.forbesimg.com/imageserve/5ef3f7eec4f2390006f0c356/960x0.jpg?fit=scale'); */
 /*   background-image: url("https://www.indiafilings.com/learn/wp-content/uploads/2019/08/Agritech-Portal.jpg");  */
   background-repeat: no-repeat;
   background-attachment: fixed; 
@@ -57,10 +58,16 @@ body.wrong {
   text-align: center;
   color: white;
   /*box-shadow: 0 0 10px 2px; */
+  
+  /* To bring the container up on the page */
+  margin-bottom: 6em;
+
+  /* want to bring more space between question and container border */
+  padding-top: auto;
 }
 
 .start-container {
-  min-width: auto;
+  min-width: 400px;
   /* width: 800px; */
   max-width: 80%;
   
@@ -100,6 +107,44 @@ body {
   1px 1px 0 #000;
 
 }
+.subtitle__question1 p{
+  font-size: 40px;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.subtitle__question2 p{
+  font-size: 40px;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.subtitle__question3 p{
+  font-size: 40px;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+.subtitle__question4 p{
+  font-size: 40px;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
 
 .header{
   text-align: center;
@@ -130,6 +175,7 @@ body {
 .explain-btn {
   border-radius: 0px;
   padding: 5px 10px;
+  font-size: 20px;
   color: white;
   outline: none;
   margin-bottom: 5px; 
