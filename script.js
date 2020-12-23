@@ -11,6 +11,11 @@ const backgroundBodyElement =document.getElementById('bgbody')
 const thankYouElement = document.getElementById('thankyou')
 const subtitleElement = document.getElementById('subtitle')
 const containerElement = document.getElementsByClassName('container')
+const subtitleQuestionElement = document.getElementById('sub__question1')
+const containerElement = document.getElementsByClassName('container')
+const subtitleQuestionTwoElement = document.getElementById('sub__question2')
+const subtitleQuestionThreeElement = document.getElementById('sub__question3')
+const subtitleQuestionFourElement = document.getElementById('sub__question4')
 
 let shuffledQuestions, currentQuestionIndex, reverseIndex
 
@@ -46,6 +51,18 @@ function startGame() {
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
+   if (currentQuestionIndex==0) {
+    subtitleQuestionElement.classList.remove('hide')
+  } else if (currentQuestionIndex==1) {
+    subtitleQuestionElement.classList.add('hide')
+    subtitleQuestionTwoElement.classList.remove('hide')
+  } else if (currentQuestionIndex==2) {
+    subtitleQuestionTwoElement.classList.add('hide')
+    subtitleQuestionThreeElement.classList.remove('hide')
+  } else if (currentQuestionIndex==3) {
+    subtitleQuestionThreeElement.classList.add('hide')
+    subtitleQuestionFourElement.classList.remove('hide')
+  }
      
 
 }
@@ -191,13 +208,24 @@ function startGame() {
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
   backgroundBodyElement.style.backgroundImage = "url('" + shuffledQuestions[0].urls + "')"
+
 }
 
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
-     
-
+  if (currentQuestionIndex==0) {
+    subtitleQuestionElement.classList.remove('hide')
+  } else if (currentQuestionIndex==1) {
+    subtitleQuestionElement.classList.add('hide')
+    subtitleQuestionTwoElement.classList.remove('hide')
+  } else if (currentQuestionIndex==2) {
+    subtitleQuestionTwoElement.classList.add('hide')
+    subtitleQuestionThreeElement.classList.remove('hide')
+  } else if (currentQuestionIndex==3) {
+    subtitleQuestionThreeElement.classList.add('hide')
+    subtitleQuestionFourElement.classList.remove('hide')
+  }
 }
 
 function showQuestion(question) {
