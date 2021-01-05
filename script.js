@@ -12,7 +12,7 @@ const thankYouElement = document.getElementById('thankyou')
 const subtitleElement = document.getElementById('subtitle')
 const containerElement = document.getElementsByClassName('container')
 const subtitleQuestionElement = document.getElementById('sub__question1')
-const containerElement = document.getElementsByClassName('container')
+
 const subtitleQuestionTwoElement = document.getElementById('sub__question2')
 const subtitleQuestionThreeElement = document.getElementById('sub__question3')
 const subtitleQuestionFourElement = document.getElementById('sub__question4')
