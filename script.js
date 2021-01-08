@@ -165,14 +165,14 @@ const questionsF = [
     urls : "https://images.unsplash.com/photo-1562504208-03d85cc8c23e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80"
   },
   {
-    question: 'What do you think you should put at the heart of your business in the 4th Industrial Revolution?',
+    question: 'What do you think you should put at the heart of your business \n in the 4th Industrial Revolution?',
     answers: [
       { text: 'Profits', correct: false },
       { text: 'New Technologies', correct: false },
       { text: 'Human Connection', correct: true},
       { text: 'Natural Resources', correct: false}
     ],
-    explanation : "Human Connection is essential. At the heart of your company the human connection represents the fourth level of Maslow’s Hierarchy of needs, Esteem. It goes hand in hand with the New Technologies 4.0",
+    explanation : "Human Connection is essential. At the heart of your company, the human connection represents the fourth level of Maslow’s Hierarchy of needs: Esteem. It goes hand in hand with the New Technologies 4.0 (NT4).",
     urls : "https://images.unsplash.com/photo-1556484687-30636164638b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"
     
   }
@@ -303,14 +303,14 @@ function clearStatusClass(element) {
 
     var questions = [
       {
-        question: 'What do you think you should put at the heart of your business in the 4th Industrial Revolution?',
+        question: 'What do you think you should put at the heart of your business \n in the 4th Industrial Revolution?',
         answers: [
           { text: 'Profits', correct: false },
           { text: 'New Technologies', correct: false },
           { text: 'Human Connection', correct: true},
           { text: 'Natural Resources', correct: false}
         ],
-        explanation : "Human Connection is essential. At the heart of your company the human connection represents the fourth level of Maslow’s Hierarchy of needs, Esteem. It goes hand in hand with the New Technologies 4.0",
+        explanation : "Human Connection is essential. At the heart of your company, the human connection represents the fourth level of Maslow’s Hierarchy of needs: Esteem. It goes hand in hand with the New Technologies 4.0 (NT4).",
         urls : "https://images.unsplash.com/photo-1556484687-30636164638b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80"
       },
       {
