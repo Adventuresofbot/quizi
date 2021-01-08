@@ -29,8 +29,7 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url("https://i.postimg.cc/c1QCTs8m/Whats-App-Image-2020-12-22-at-9-14-34-AM.jpg");
-/*   background-image: url('https://specials-images.forbesimg.com/imageserve/5ef3f7eec4f2390006f0c356/960x0.jpg?fit=scale'); */
-/*   background-image: url("https://www.indiafilings.com/learn/wp-content/uploads/2019/08/Agritech-Portal.jpg");  */
+
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-position: center;
@@ -67,7 +66,7 @@ body.wrong {
 }
 
 .start-container {
-  min-width: 400px;
+  min-width: 200px;
   /* width: 800px; */
   max-width: 80%;
   
