@@ -74,7 +74,9 @@ body.wrong {
   background: rgba(0, 0, 0, 0.6);
   /*opacity: 60%;*/
   border-radius: 0px;
-  margin-top: 40px;
+  margin-top: -100px;
+  /* margin-top: 80px; */
+/*   margin-top: 40px; */
   padding: 20px;
   text-align: center;
   color: white;
