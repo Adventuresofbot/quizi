@@ -251,3 +251,8 @@ html {
     background-color: #DFDFDF;
 }
 
+.controls > .next-btn {
+  margin-bottom: 3px;
+}
+
+
