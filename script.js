@@ -149,7 +149,7 @@ const questionsF = [
     ],
     explanation : "The Fourth Industrial Revolution is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc",
 //     urls : "https://cdn.vox-cdn.com/thumbor/NX9K3xqd_KkJkhAVtBLPEITr4wM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19968242/MOX01169.jpg"
-    urls : "https://www.onderwijsvanmorgen.nl/wp-content/uploads/2018/12/Virtual-Reality-in-het-Onderwijs.jpg"
+    urls : "https://cdn.vox-cdn.com/thumbor/NX9K3xqd_KkJkhAVtBLPEITr4wM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19968242/MOX01169.jpg"
     
   },
   {
@@ -335,7 +335,7 @@ function clearStatusClass(element) {
         ],
         explanation : "The Fourth Industrial Revolution is based on New Technologies 4.0, such as Artificial Intelligence, Biotechnologies, Humanoid Robots, etc",
 //         urls : "https://cdn.vox-cdn.com/thumbor/NX9K3xqd_KkJkhAVtBLPEITr4wM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19968242/MOX01169.jpg"
-        urls : "https://www.onderwijsvanmorgen.nl/wp-content/uploads/2018/12/Virtual-Reality-in-het-Onderwijs.jpg"
+        urls : "https://cdn.vox-cdn.com/thumbor/NX9K3xqd_KkJkhAVtBLPEITr4wM=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19968242/MOX01169.jpg"
         
       },
       {
